@@ -1,6 +1,8 @@
 # astrastreaming-to-gcs
 
-This application subscribes to a change data capture (cdc) data topic on astra streaming and streams the data to a google cloud storage bucket.
+This application was build to demo [Change Data Capture (CDC)](https://docs.datastax.com/en/astra-streaming/docs/astream-cdc.html) on [Astra](https://https://astra.datastax.com/) - an open datastack that just works.
+
+astrastreaming-to-gcs subscribes to a change data capture (cdc) data topic on astra streaming and streams the data to a google cloud storage bucket.
 The data get"s written in json formated files of an [configurable chunk size](https://github.com/difli/astrastreaming-to-gcs/blob/main/src/main/resources/application.properties#L2).
 
 ![alt text](/docs/flow.png)
